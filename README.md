@@ -13,4 +13,9 @@ The code is written by keras with tensorflow backend. (Theano backend does not w
 Deformable convolutional networks can reduce the effect of geometric transformation on image classification accuracy. In which,  the additional convolutional layers are used to learn unknown affine transformations. On the other hand, this structure increases training cost -- time consumption and computational source.
 
 
-A review of bilinear interpolation is also presented in this repository and I also explian how to realize this algorithm with tensorflow code library. ()
+A review of bilinear interpolation is also presented in this repository and I also explian how to realize this algorithm with tensorflow code library. Please refer to tf_map_coords.pptx file.
+
+
+In cnn.py I defined a deform_cnn function. You can easily construct your own network structures by using this function.
+
+Any discussion about CNN model is welcome and please send email to me: xingshuli600@gmail.com.
